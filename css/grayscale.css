@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 35px 0;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -160,6 +160,7 @@ a:focus {
     position:absolute;
     height:100%;
     width:100%;
+    top:0;
     background: url(../img/pots_r.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
